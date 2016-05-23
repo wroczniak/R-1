@@ -13,10 +13,10 @@ class UserProfile extends React.Component {
                 <input type="text" autofocus="" required="" placeholder="First name" className="form-control first-name"
                        id="firrstName"/>
                 <label className="sr-only" for="lastName">Last name</label>
-                <input type="password" required="" placeholder="Last name" className="form-control last-name"
+                <input type="text" required="" placeholder="Last name" className="form-control last-name"
                        id="lastName"/>
 
-                <button type="submit" className="btn btn-lg btn-primary btn-block">Update profile</button>
+                <button className="btn btn-lg btn-primary btn-block">Update profile</button>
             </form>
         );
     }
