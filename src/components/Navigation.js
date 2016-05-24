@@ -22,7 +22,7 @@ class Navigation extends React.Component {
 
                     <ul className="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">Welcome Łucja Roczniak</a>
+                            <a href="#">Welcome {this.props.firstName} {this.props.lastName}</a>
                         </li>
                     </ul>
                 </div>

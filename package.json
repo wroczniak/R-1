@@ -22,7 +22,8 @@
   "homepage": "https://github.com/wroczniak/R-1#readme",
   "dependencies": {
     "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+    "react-dom": "^15.0.1",
+    "reflux": "^0.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.9.0",
